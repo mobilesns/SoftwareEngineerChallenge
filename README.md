@@ -31,6 +31,16 @@
 	    public boolean isEmpty();
 	}
     ```
+    
+<<ANSWER>>
+	The implementation of immutable queue.
+	An enqueue or dequeue will not alter the old queue and will return a new queue.
+	After an enqueue or dequeue both the old queue and the new queue exist.
+	The immutable queue is implemented with 2 immutable stacks.
+
+ 	To enqueue an element just push it onto the back stack.
+ 	To dequeue an element just pop the top element from the front stack.
+ 	If the front stack is empty pop all elements from the back stack and push them onto the front stack.
 
 2. Design Question: Design A Google Analytic like Backend System.
     We need to provide Google Analytic like services to our customers. Pls provide a high level solution design for the backend system. Feel free to choose any open source tools as you want.
