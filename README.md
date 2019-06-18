@@ -63,7 +63,7 @@ ANSWER:
 
 The backend system contains the following 4 modules.
 
-Data collection, data processing, data storing, data presentation.
+Data collection, data processing, data storing, data analysis.
 
 1) Data collection and pipline
 
